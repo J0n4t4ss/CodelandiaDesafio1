@@ -27,7 +27,7 @@ header{
     padding: 2rem;
 }
 
-header h2,h3{
+header h1,h2{
     color: var(--light);
     font-weight: 500;
 }
@@ -46,4 +46,39 @@ header h2,h3{
     border-radius: 0.4rem;
     border: none;
     padding-left: 1rem;
+}
+
+section{
+    background: var(--gray);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  
+}
+
+.cards{
+    display: grid;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 20rem;
+    background: var(--light);
+    padding: 1rem 5rem 1rem 5rem;
+    width: 54%;
+    height: 10rem;
+   
+
+}
+
+.dacon{
+    display: flex;
+    justify-content: space-between;
+}
+
+section .cards h2{
+    color: var(--title-color);
+}
+
+section .cards p{
+    color: var(--text-color);
 }
